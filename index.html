@@ -7,6 +7,61 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Hola</h1>
+    <div class="formulario">
+        <hr>
+        <h1>Recibo telefonico</h1>
+        <hr>
+    </div>
+    <form action="">
+    <div>
+        <h2>Minutos de celular (10.00MXN c/u)</h2>
+        <label for=""></label>
+        <input type="number" value="100">      
+    </div>
+    <div>
+        <h2>Tipos de plan</h2>
+        <label for="tipos-de-plan"></label>
+        <select name="tipos de plan" id="tipos-de-plan">
+            <option value="">Solo telefono (100.00MXN)</option>
+            <option value="">telefono + internet (200.00MXN)</option>
+            <option value="">Telefono + internet + tv (300.00MXN)</option>
+        </select>
+    </div>
+    <div>
+        <h2>Servicios adicionales</h2>
+        <label for=""></label>
+        <div>
+            <input type="radio" name="servicios" id="servicio1" value="50">
+            <label for="servicio1"> Antivirus (50.00MXN)</label>
+        </div>
+        <div>
+            <input type="radio" name="servicios" id="servicio2" value="150">
+            <label for="servicio2">Servicio de nube (150.00MXN)</label>
+        </div>
+        <div>
+            <input type="radio" name="servicios" id="servicio3" value="250">
+            <label for="servicio3">Web services (250.00MXN)</label>
+        </div>
+    </div>
+    <br>
+
+    <div>
+        <h2>Total a pagar</h2>
+        <input type="text" value="0.00MXN" readonly>
+    </div>
+    <br>
+    <div>
+        <label for="menu-desplegable">Paquetes</label>
+        <div>
+            <select id="menu-desplegable" name="menu-desplegable">
+                <option value="opcion1">Residencial</option>
+                <option value="opcion2">PYMES</option>
+                <option value="opcion3">Empresas</option>
+            </select>
+            <br>
+    </div>
+    <button type="button">Calcular</button>
+    </div>
+    </form>
 </body>
 </html>
