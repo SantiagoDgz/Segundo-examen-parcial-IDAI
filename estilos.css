@@ -35,3 +35,28 @@ form{
     max-width: 700px;
     margin: auto;
 }
+.formulario{
+    border: #014d18 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.servicios{
+    border: #1ea647 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.boton-calcular{
+    border: #014d18 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+tipos-de-plan{
+    margin-bottom: 20px;
+    border: #1ea647 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
